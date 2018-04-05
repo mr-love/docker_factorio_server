@@ -4,8 +4,8 @@ MAINTAINER https://github.com/dtandersen/docker_factorio_server
 
 ARG USER=factorio
 ARG GROUP=factorio
-ARG PUID=845
-ARG PGID=845
+ARG PUID=99
+ARG PGID=100
 
 ENV PORT=34197 \
     RCON_PORT=27015 \
